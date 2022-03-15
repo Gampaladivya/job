@@ -1,0 +1,7 @@
+SQL> create table jobregistration(regno number(10),
+  2  candname varchar2(10),
+  3  gender varchar2(10),
+  4  qualification varchar2(10),
+  5  age integer check(age>=20 and age<=30));
+
+Table created.
